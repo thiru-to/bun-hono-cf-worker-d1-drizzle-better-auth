@@ -1,0 +1,15 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.removeUnusedImports": "explicit",
+    "source.removeUnusedVariables": "explicit",
+    "source.removeUnusedLabels": "explicit",
+    "source.removeUnusedFunctions": "explicit",
+    "source.removeUnusedClasses": "explicit",
+    "source.removeUnusedEnums": "explicit",
+    "source.removeUnusedInterfaces": "explicit",
+    "source.removeUnusedTypes": "explicit",
+    "source.removeUnusedModules": "explicit"
+  }
+}
