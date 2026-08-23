@@ -1,0 +1,31 @@
+{
+  "name": "bun-hono-cf-worker-d1-drizzle-better-auth",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.6.1",
+    "@hono/zod-validator": "^0.9.0",
+    "better-auth": "^1.7.1",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "hono": "^4.13.3",
+    "pg": "^8.23.0",
+    "pino": "^10.3.1",
+    "pino-pretty": "^13.1.3",
+    "postgres": "^3.4.9",
+    "wrangler": "^4.125.0"
+  },
+  "devDependencies": {
+    "@better-auth/drizzle-adapter": "^1.7.1",
+    "@biomejs/biome": "^2.5.10",
+    "@types/bun": "latest",
+    "@types/pg": "^8.23.1",
+    "@types/pino": "^7.0.5",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "drizzle-kit": "^1.0.0-rc.4",
+    "swagger-jsdoc": "^6.3.0",
+    "tsx": "^4.23.12",
+    "zod": "^4.4.3"
+  }
+}
