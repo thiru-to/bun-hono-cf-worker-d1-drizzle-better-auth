@@ -1,5 +1,6 @@
 {
   "name": "bun-hono-cf-worker-d1-drizzle-better-auth",
+  "type": "module",
   "scripts": {
     "dev": "bun run --hot src/index.ts"
   },
